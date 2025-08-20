@@ -1,0 +1,1250 @@
+* {box-sizing: border-box}
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+    
+ 
+
+
+font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #DCDCDC;
+  width: 15%;
+  height: 48.177%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 17% 11%;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 50%;
+  border-left: none;
+  height: 39.788%;
+  display: none;
+}
+
+/* Clear floats after the tab */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #696969	;
+  overflow: auto;
+}
+
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.search {
+    margin-left: 76.615%; 
+    margin-top: 0.651%; 
+    position: absolute;
+}
+
+.login {
+    margin-left: 83.635%;
+    margin-top: -0.083%; 
+    position: absolute;
+}
+
+.currency {
+    position: absolute; 
+    left: 60.047%; 
+    top: 1.592%; 
+    color: white;
+}
+
+.options {
+    position: absolute; 
+    left: 71.615%; 
+    top: 1.592%;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* first row of images */
+
+     h2 {
+  position: absolute;
+  margin-left: 17.578%;
+  font-size: 100%;
+  top: 4.642%;
+}
+
+    .rollercoaster{
+    background: url(img/SFMM_Goliath-Thumbnail.webp) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    margin-top: 1.953%;
+    margin-left: 22.786%;
+    }
+    
+    .crazinity{
+    background: url(img/CraZanity_-Thumbnail.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    margin-left: 36.133%;
+    margin-top: 1.953%;
+    } 
+    
+    .yourbus{
+    background: url(img/SFMM_Daffys-Wilderness-Tours.webp) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    margin-left: 49.479%; 
+        
+    position: absolute;
+    margin-top: 1.953%;
+    } 
+    
+    .ballons{
+    background: url(img/SFMM_Elmers-Weather-Balloons-Thumbnail.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    margin-top: 1.953%;
+    margin-left: 62.825%;
+    } 
+    
+    .horse{
+    background: url(img/SFMM_Merrie-Melodies-Carousel-App-Detail-Image-1-480x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    background-size: contain;
+    position: absolute;
+    margin-top: 1.953%;
+    margin-left: 76.172%;
+    } 
+
+
+/* second row of images */
+
+      h3 {
+  position: absolute;
+  margin-left: 17.578%;
+  font-size: 100%;
+  top: 22.546%;
+}
+    
+     .boat{
+    background: url(img/SFMM_Roaring-Rapids-App-Detail-Image-2-480x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    margin-left: 22.786%;
+    background-size: cover;
+    margin-top: 11%;
+    } 
+
+    
+    .train{
+    background: url(img/sfne_neexpress_1440x1533_1-313x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    background-size: cover;
+    margin-top: 11%;
+    margin-left: 36.133%;
+    } 
+    
+
+    .roadrunner{
+    background: url(img/SFMM_Road-Runner-Express-App-Detail-Image-480x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    background-size: cover;
+    margin-top: 11%;
+    margin-left: 49.479%;
+    } 
+    
+
+    .splash{
+    background: url(img/SFMM_Jet-Stream-Thumbnail-1-480x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;    
+    background-size: cover;
+    margin-top: 11%;
+    margin-left: 62.825%;
+    } 
+
+    
+    .scrambler{
+    background: url(img/SFMM_Scrambler-Thumbnail-2-480x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;    
+    background-size: cover;
+    margin-top: 11%;
+    margin-left: 76.172%;
+    } 
+
+/* third row of images */
+    
+     h4 {
+  position: absolute;
+  margin-left: 17.578%;
+  top: 40.247%;
+  font-size: 100%;
+}
+    
+    .horse2{
+    background: url(img/SFMM_Grand-Carousel-Thumbnail.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute; 
+    background-size: cover;
+    margin-left: 22.786%;
+    margin-top: 20.047%;
+    } 
+    
+    .cups{
+    background: url(img/SFMM_Pepe-Le-Pews-Tea-Party-App-Detail-Image-2-480x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute; 
+    background-size: cover;
+    margin-top: 20.047%;
+    margin-left: 36.133%;
+    } 
+
+    
+    .car{
+    background: url(img/SFMM_Speedy-Gonzales-Hot-Rod-Racers-Web-Thumbnail.jpg) no-repeat;
+    width: 13.020%;
+    height: 20.589%;
+    position: absolute; 
+    background-size: contain;
+    margin-top: 20.047%;
+    margin-left: 49.479%;
+    } 
+    
+     .bounce{
+    background: url(img/sfmm_sylvesters_pounce_bounce_1440x1533_0.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute; 
+    background-size: cover;
+    margin-top: 20.047%;
+    margin-left: 62.825%;
+    } 
+    
+     .flight{
+    background: url(img/sfmm_yosemitesamsflightschool_la_220x220.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute; 
+    background-size: cover;
+    margin-top: 20.047%;
+    margin-left: 76.172%;
+    } 
+
+/* forth row of images */
+    
+      h5 {
+  position: absolute;
+  margin-left: 17.578%;
+  top: 58%;
+  font-size: 100%;
+}  
+
+    .scream{
+    background: url(img/SFMM_Scream-Thumbnail-Test.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    background-size: cover;
+    margin-left: 22.786%;
+    margin-top: 29.094%;
+    } 
+    
+    .tatsu{
+    background: url(img/tatsu-sfmm_780x520-480x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    background-size: cover;
+    margin-top: 29.094%;
+    margin-left: 36.133%;  
+    }
+    
+     .coaster{
+    background: url(img/sfmm_full_throttle_1440x1533_0-e1643054526180-480x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    background-size: contain;
+    margin-top: 29.094%;
+    margin-left: 49.479%;
+    } 
+    
+     .goldrusher{
+    background: url(img/SFMM_Gold-Rusher-Thumbnail-1.webp) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    background-size: cover;
+    margin-top: 29.094%;
+    margin-left: 62.825%;
+    } 
+    
+     .drop{
+    background: url(img/SFMM_Lex-Luthor-Drop-of-Doom-App-Detail-Image-480x270.jpg) no-repeat;
+    width: 13.020%;
+    height: 14.589%;
+    position: absolute;
+    background-size: cover;
+    margin-top: 29.094%;
+    margin-left: 76.172%;
+    } 
+
+    
+    
+   
+/* arrows */
+
+.left
+    {
+        width:1.302%;
+        height:2.653%;
+        transition: .5s;
+        margin-left: 20.833%;
+        position: absolute;
+        margin-top: 7.813%;
+        box-shadow: -2px 2px 0 rgba(0,0,0,.5);
+        cursor: pointer;
+    }
+.right
+     {
+        width:1.302%;
+        height:2.653%;
+        transition: .5s;
+        margin-left: 89.495%;
+        position: absolute;
+        margin-top: 7.813%;
+        box-shadow: -2px 2px 0 rgba(0,0,0,.5);
+        cursor: pointer;
+    }
+    
+    .left1
+    {
+        width:1.302%;
+        height:2.653%;
+        transition: .5s;
+        margin-left: 20.833%;
+        position: absolute;
+        margin-top: 16.927%;
+        box-shadow: -2px 2px 0 rgba(0,0,0,.5);
+        cursor: pointer;
+    } 
+    
+    .right1
+     {
+        width:1.302%;
+        height:2.653%;
+        transition: .5s;
+        margin-left: 89.495%;
+        position: absolute;
+        margin-top: 16.927%;
+        box-shadow: -2px 2px 0 rgba(0,0,0,.5);
+        cursor: pointer;
+    }
+    
+    
+     .left2
+    {
+        width:1.302%;
+        height:2.653%;
+        transition: .5s;
+        margin-left: 20.833%;
+        position: absolute;
+        margin-top: 26.042%;
+        box-shadow: -2px 2px 0 rgba(0,0,0,.5);
+        cursor: pointer;
+    } 
+    
+    .right2
+     {
+        width:1.302%;
+        height:2.653%;
+        transition: .5s;
+        margin-left: 89.495%;
+        position: absolute;
+        margin-top: 26.042%;
+        box-shadow: -2px 2px 0 rgba(0,0,0,.5);
+        cursor: pointer;
+    }
+    
+      .left3
+    {
+        width:1.302%;
+        height:2.653%;
+        transition: .5s;
+        margin-left: 20.833%;
+        position: absolute;
+        margin-top: 35.807%;
+        box-shadow: -2px 2px 0 rgba(0,0,0,.5);
+        cursor: pointer;
+    } 
+    
+    .right3
+     {
+        width:1.302%;
+        height:2.653%;
+        transition: .5s;
+        margin-left: 89.495%;
+        position: absolute;
+        margin-top: 35.807%;
+        box-shadow: -2px 2px 0 rgba(0,0,0,.5);
+        cursor: pointer;
+    }
+    
+    
+.left
+    {
+        transform:rotate(45deg);
+    }
+
+.left1
+    {
+        transform:rotate(45deg);
+    }
+    
+.left2
+    {
+        transform:rotate(45deg);
+    }
+    
+.left3
+    {
+        transform:rotate(45deg);
+    }
+    
+.right
+    {
+        transform: rotate(225deg);
+    }
+    
+.right1
+    {
+        transform: rotate(225deg);
+    }
+    
+.right2
+    {
+        transform: rotate(225deg);
+    }
+    
+.right3
+    {
+        transform: rotate(225deg);
+    }
+    
+      
+.left:hover,
+.right:hover
+    {
+        box-shadow: -2px 2px 0 rgba(0,0,0,1);
+    }
+
+/* social media */
+
+.socialmedia {
+    position:absolute;
+    left:83.242%; 
+    margin-top:37%; 
+}
+    
+/* helping menu (footer) */
+    
+    .btn1 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left:1.906%;
+  margin-top: 41%;
+}
+    
+    .btn2 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+    .btn3 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn4 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn5 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn6 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn7 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn8 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn9 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn10 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn11 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+    
+.btn:hover {background: #eee;}
+
+.support {color: black;}
+
+
+/* dropdown button for rides category */
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  min-width: 230px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* text written when you hover over the images */
+
+/* first row of images */
+.text{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .rollercoaster:hover .text
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text1{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .crazinity:hover .text1
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text2{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .yourbus:hover .text2
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text3{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .ballons:hover .text3
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text4{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .horse:hover .text4
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+/* second row of images */
+.text5{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .boat:hover .text5
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text6{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .train:hover .text6
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text7{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .roadrunner:hover .text7
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text8{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .splash:hover .text8
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text9{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .scrambler:hover .text9
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+/* third row of images */
+.text10{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .horse2:hover .text10
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text11{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .cups:hover .text11
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text12{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .car:hover .text12
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text13{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .bounce:hover .text13
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text14{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .flight:hover .text14
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+/* forth row of images */
+.text15{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .scream:hover .text15
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text16{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .tatsu:hover .text16
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text17{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .coaster:hover .text17
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text18{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .goldrusher:hover .text18
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+
+.text19{
+      width: 100%;
+      height: 100%;
+      background:#FFF;
+      opacity:0;
+    }
+    .drop:hover .text19
+    {
+      opacity:0.6;
+      text-align:justify;
+      color:#000000;
+      font-size:10px;
+      font-weight:bolder;
+      font-family:"Times New Roman", Times, serif;
+      padding:30px;
+    }
+/* for smaller screens */
+
+@media screen and (max-width: 1290px) {
+    
+  .navbar a {
+    float: none;
+    display: block;
+    background-color: #696969	;
+    }
+    
+    .navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  }
+
+.navbar a:hover {
+  background-color: #000;
+}
+    
+    .search {
+    margin-left: 76.615%; 
+    margin-top: 0.651%; 
+    position: absolute;
+    }
+
+    .login {
+        margin-left: 86.635%;
+        margin-top: -0.083%; 
+        position: absolute;
+    }
+
+    .currency {
+        position: absolute; 
+        left: 58.047%; 
+        top: 1.592%; 
+        color: white;
+    }
+
+    .options {
+        position: absolute; 
+        left: 71.615%; 
+        top: 1.592%;
+    }
+    
+    .active {
+        background-color: #04AA6D;
+    }
+    
+    .tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 15% 9%;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+  }
+    
+    .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  min-width: 185px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 185px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+    
+     .btn1 {
+  border: none;
+  background-color: inherit;
+  padding: 10px 24px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+  margin-left:0.4%;
+  margin-top: 41%;
+}
+    
+    .btn2 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+    .btn3 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn4 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn5 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn6 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn7 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn8 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn9 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn10 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     .btn11 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+    
+     h2 {
+  position: absolute;
+  margin-left: 17.578%;
+  font-size: 100%;
+  top: 6%;
+}
+
+ h3 {
+  position: absolute;
+  margin-left: 17.578%;
+  font-size: 100%;
+  top: 24%;
+}
+
+ h4 {
+  position: absolute;
+  margin-left: 17.578%;
+  top: 42.2%;
+  font-size: 100%;
+}
+
+   h5 {
+  position: absolute;
+  margin-left: 17.578%;
+  top: 61.5%;
+  font-size: 100%;
+}  
+     
+  }
+
